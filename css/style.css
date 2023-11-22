@@ -22,7 +22,15 @@ footer
   text-align: center;
   background-color: #666666;
   border-radius: 5px;
-  padding: 50px;
+  padding: 50px; 
+}
+
+.aside-image {
+  /* CSS properties for styling the image */
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  /* Add more styles as needed */
 }
 
 header,
@@ -80,6 +88,12 @@ nav
 aside
 {
   float: right;
+  .aside-image 
+    /* CSS properties for styling the image */
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    /* Add more styles as needed */
 }
 
 nav ul
